@@ -62,7 +62,7 @@ public class Productor extends Thread{
 				}
 			}
 			else {
-				this.yield();
+				Productor.yield();
 			}
 		}
 	}

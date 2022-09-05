@@ -44,7 +44,7 @@ public class Consumidor extends Thread{
 					System.out.println("Mensaje: " + mensajeObtener + " consumido: " + consumidos);
 			}
 			else {
-				this.yield();
+				Thread.yield();
 			}
 
 		}
