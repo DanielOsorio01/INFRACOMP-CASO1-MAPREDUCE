@@ -52,7 +52,7 @@ public class NodoIntermedio extends Thread {
 			}
 			else
 			{
-				mensajeObtener+= "T"+ nivel+proceso;
+				mensajeObtener+= "T"+ nivel+"."+proceso;
 				//Proceso Terminado
 				String mensajeId = mensajeObtener.substring(0, mensajeObtener.indexOf("T"));
 				System.out.println("Mensaje " + mensajeId + " procesado a: " + mensajeObtener);
