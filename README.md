@@ -1,6 +1,6 @@
 # INFRACOMP-CASO1-MAPREDUCE
 
-Andrés Arevalo 
+Andrés Arevalo - 201923853
 
 Daniel Osorio - 202022996 
 
